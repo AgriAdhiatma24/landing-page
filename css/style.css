@@ -1,0 +1,67 @@
+/* Navbar */
+
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 32px;
+}
+
+/* Utility */
+.button-round {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(../img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+}
+
+.jumbotron .container .display-4 {
+  color: white;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgbe(0, 0, 0, 0.7);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .container span {
+  font-weight: 500;
+
+}
+
+/* Media Queries */
+/* DESKTOP */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+  }
+
+  .jumbotron .container .display-4{
+    font-size: 62px;
+  }
+}
