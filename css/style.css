@@ -18,11 +18,12 @@
 
 /* Jumbotron */
 .jumbotron {
-  background-image: url(../img/jumbotron-bg.jpg);
+  background-image: url(../img/jumbotron2-bg.jpg);
   background-size: cover;
   height: 540px;
   text-align: center;
   position: relative;
+  opacity: 0.9;
 }
 
 .jumbotron .container {
@@ -109,6 +110,54 @@
     margin : 25px 0;
 }
 
+.testimonials {
+    margin-top: 100px;
+}
+
+.testimonials h5 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.testimonials figure img {
+  width: 60px;
+  margin-top: 20px;
+  margin: 20px 15px 10px;
+  opacity: 0.5;
+}
+
+.testimonials figure img.main {
+  width: 90px;
+  margin-top: 5px;
+  margin: 20px 15px 10px;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.testimonials figure h5 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  color : #1c2c5d;
+}
+
+.testimonials figure span {
+  font-size: 12px;
+  color : #acacac;
+  margin-top: -10px;
+}
+
+.testimonials figcaption {
+  text-align: center;
+}
+
+.footer p {
+  color: #acacac;
+  font-size: 18px;
+  margin-top: 50px;
+}
 
 /* Media Queries */
 /* DESKTOP */
@@ -148,5 +197,12 @@
 
   .workingspace {
     text-align: left;
+  }
+
+  .testimonials h5 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 32px;
+    font-style: italic;
   }
 }
